@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ead2e3-2548-40ff-92fa-fa2f88df67a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logs/Application.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logs/Selenium.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/SeleniumDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/SeleniumDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/SeleniumDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/SeleniumDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/positive/cucumber.html/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/positive/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/RunCuke.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner/RunCuke.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/BuyBookSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/BuyBookSteps.class" afterDir="false" />
-    </list>
+    <list default="true" id="63ead2e3-2548-40ff-92fa-fa2f88df67a7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="882" />
     <option name="width" value="1000" />
     <option name="height" value="1040" />
@@ -458,7 +446,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="706" y="0" width="800" height="832" extended-state="0" />
+    <frame x="706" y="0" width="800" height="832" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
