@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Logger;
+
 
 public class SeleniumDriver{
     private static SeleniumDriver seleniumDriver;
@@ -11,10 +13,13 @@ public class SeleniumDriver{
     private static WebDriverWait waitDriver;
     public final static int TIMEOUT = 30;
     public final static int PAGE_LOAD_TIMEOUT = 50;
+    public static Logger log = Logger.getLogger("devpinoyLogger");
+
 
     private SeleniumDriver(){
         System.setProperty("webdriver.chrome.driver", "E:\\Software\\Selenium\\ChromeDriver87\\chromedriver.exe");
         driver = new ChromeDriver();
+        log.info("New driver instantiated");
         driver.manage().window().maximize();
         waitDriver = new WebDriverWait(driver,TIMEOUT);
         driver.manage().timeouts().implicitlyWait(TIMEOUT,TimeUnit.SECONDS);
@@ -23,6 +28,7 @@ public class SeleniumDriver{
 
     public static void openPage(String url) {
         driver.get(url);
+
     }
 
     public static WebDriver getDriver() {
