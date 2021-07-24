@@ -23,6 +23,7 @@ public class ShoppingCartPageActions {
 
     }
 
+    //Get the Shopping Cart Details
     public void ShoppingCartDetails(){
 
         BookCartName = shoppingCartPageLocators.PickCartBookName.getText();
@@ -36,20 +37,21 @@ public class ShoppingCartPageActions {
 
     }
 
+    //Get the Quantity
     public void quantity(){
         Units = shoppingCartPageLocators.PickCartBookQuantity.getText();
         int BooksQuantity = Integer.parseInt(Units);
 
         if (BooksQuantity>0) {
             System.out.println("The Books Quantity is: "+ BooksQuantity);
-        }
-        else {
+        } else {
 
             System.out.println("Quantity is not sufficient to proceed");
         }
 
     }
 
+    //Total Price Assertion
     public void TotalPriceAssertion(){
 
         CartSubtotal = shoppingCartPageLocators.CheckOutSubTotal.getText();
@@ -61,6 +63,7 @@ public class ShoppingCartPageActions {
 
     }
 
+    //Click Proceed
     public void clickProceedToCheckOut(){
 
         shoppingCartPageLocators.ClickProceedToCheckOutButtonInCart.click();

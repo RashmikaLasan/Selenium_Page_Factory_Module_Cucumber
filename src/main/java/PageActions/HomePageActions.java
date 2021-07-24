@@ -15,12 +15,15 @@ public class HomePageActions {
         PageFactory.initElements(SeleniumDriver.getDriver(),homePageLocators);
 
     }
+
+    //Select from Drop Down
     public void selectBooksFromDropDown( String Books) throws InterruptedException {
         Select selectBook = new Select(homePageLocators.MainDropDownClick);
         selectBook.selectByVisibleText(Books);
         Thread.sleep(5000);
     }
 
+    //Type Book Name
     public void typeBookName(String BookName) throws InterruptedException {
 
         homePageLocators.ClickOnTextBox.sendKeys(BookName);
@@ -28,6 +31,7 @@ public class HomePageActions {
 
     }
 
+    //Click Search Button
     public void clickBookSearchButton(){
 
         homePageLocators.ClickBookSearchIcon.click();

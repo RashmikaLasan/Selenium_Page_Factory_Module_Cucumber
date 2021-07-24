@@ -15,12 +15,14 @@ public class BookSelectPageActions {
 
     }
 
+    //Click Hard Cover Button
     public void clickHardCover (){
 
         bookSelectPageLocators.SelectHardCover.click();
 
     }
 
+    //Verify Book Name
     public void BookNameDetails(){
 
         BookName = bookSelectPageLocators.SelectBookNameText.getText();
@@ -28,12 +30,14 @@ public class BookSelectPageActions {
 
     }
 
+    //Get the Length of Book Name
     public void BookNameLength(){
         int BookNameLength = BookName.length();
         System.out.println("Product Length is: "+ BookNameLength);
 
     }
 
+    //Add item to the cart
     public void clickAddToCart(){
         bookSelectPageLocators.ClickAddToCardButton.click();
 

@@ -16,12 +16,14 @@ public class CheckOutPageActions {
 
     }
 
+    //Get the Price of the Booking
     public void pickPrice(){
 
         ItemPrice = checkOutPageLocators.PickPriceLabel.getText();
         System.out.println("Book price is: " + ItemPrice);
     }
 
+    //Clear Cart
     public void clickCart(){
 
         checkOutPageLocators.ClickOnCart.click();
